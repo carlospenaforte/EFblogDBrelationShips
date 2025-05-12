@@ -1,0 +1,6 @@
+@EFblogDBrelationShips_HostAddress = http://localhost:5125
+
+GET {{EFblogDBrelationShips_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
