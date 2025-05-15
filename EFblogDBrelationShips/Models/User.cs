@@ -12,5 +12,6 @@
 
         // navigation property
         public Blog Blog { get; set; }
+        public ICollection<Post> Post { get; set; }
     }
 }
