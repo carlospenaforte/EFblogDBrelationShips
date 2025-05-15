@@ -15,5 +15,7 @@ namespace EFblogDBrelationShips.Models
 
         // Navigation property
         public User User { get; set; }
+        public ICollection<Post> Post { get; set; }
+        public ICollection<Image> Images { get; set; }
     }
 }
